@@ -1,0 +1,15 @@
+@import 'consts';
+
+.hero{
+    display:flex;
+    justify-content:space-between; 
+    margin-top:30px; 
+    margin-left:30px
+}
+
+@media all and (max-width: 1300px){
+    .hero{
+        flex-direction: column;
+        align-items: center;
+    }
+}

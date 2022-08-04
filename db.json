@@ -1,0 +1,103 @@
+{
+  "products": [
+    {
+      "title": "Iced American",
+      "type": "Iced Coffee",
+      "image": "https://ovo.com.kw/wp-content/uploads/iced_coffee_americano.jpg",
+      "description": "Here is a short description for the first item. Wave Cafe Template is provided by Tooplate.",
+      "price": "10.50",
+      "id": 1,
+      "comments": []
+    },
+    {
+      "title": "Iced Cappuccino",
+      "type": "Iced Coffee",
+      "image": "https://thumbs.dreamstime.com/b/iced-cappuccino-ice-coffee-wooden-table-54925530.jpg",
+      "description": "A cappuccino is an espresso-based coffee drink that originated in Austria with later development taking place in Italy, and is prepared with steamed milk foam. Variations of the drink involve the use of cream instead of milk, using non-dairy milk substitutes and flavoring with cinnamon or chocolate powder.",
+      "price": "12.50",
+      "id": 2,
+      "comments": []
+    },
+    {
+      "title": "Iced Espresso",
+      "type": "Iced Coffee",
+      "image": "https://www.tooplate.com/templates/2121_wave_cafe/img/iced-espresso.png",
+      "description": "You are not permitted to redistribute this template ZIP file on any other template websites.",
+      "price": "14.75",
+      "id": 3,
+      "comments": []
+    },
+    {
+      "title": "Iced Latte",
+      "type": "Iced Coffee",
+      "image": "https://www.whiskaffair.com/wp-content/uploads/2020/12/Iced-Vanilla-Latte-2-3.jpg",
+      "description": "Contents are organized into 3 tabs. Please contact Tooplate if you have anything to ask.",
+      "price": "14.25",
+      "id": 4,
+      "comments": []
+    },
+    {
+      "title": "Hot American",
+      "type": "Hot Coffee",
+      "image": "https://www.wework.com/ideas/wp-content/uploads/sites/4/2016/05/Shanghai-coffee.jpg",
+      "description": "Here is a short description for the item along with a squared thumbnail.",
+      "price": "8.50",
+      "id": 6,
+      "comments": []
+    },
+    {
+      "title": "Hot Espresso",
+      "type": "Hot Coffee",
+      "image": "https://www.tooplate.com/templates/2121_wave_cafe/img/hot-espresso.png",
+      "description": "Left side logo and main menu are fixed. The video background is fixed.",
+      "price": "11.25",
+      "id": 7,
+      "comments": []
+    },
+    {
+      "title": "Hot Latte",
+      "type": "Hot Coffee",
+      "image": "https://www.tooplate.com/templates/2121_wave_cafe/img/hot-latte.png",
+      "description": "Page contents are organized into 3 tabs to show different lists of items.",
+      "price": "6.50",
+      "id": 8,
+      "comments": []
+    },
+    {
+      "title": "Strawberry Smoothie",
+      "type": "Fruit Juice",
+      "image": "https://www.tooplate.com/templates/2121_wave_cafe/img/smoothie-1.png",
+      "description": "Here is a short description for the item along with a squared thumbnail.",
+      "price": "12.50",
+      "id": 9,
+      "comments": []
+    },
+    {
+      "title": "Red Berry Smoothie",
+      "type": "Fruit Juice",
+      "image": "https://www.tooplate.com/templates/2121_wave_cafe/img/smoothie-2.png",
+      "description": "Here is a list of 4 items or add more. You can use this template for commercial purposes.",
+      "price": "14.50",
+      "id": 10,
+      "comments": []
+    },
+    {
+      "title": "Pineapple Smoothie",
+      "type": "Fruit Juice",
+      "image": "https://www.tooplate.com/templates/2121_wave_cafe/img/smoothie-3.png",
+      "description": "Left side logo and main menu are fixed. The video background is fixed.",
+      "price": "16.50",
+      "id": 11,
+      "comments": []
+    },
+    {
+      "title": "Spinach Smoothie",
+      "type": "Fruit Juice",
+      "image": "data:image/jpeg;base64,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",
+      "description": "You are not allowed to redistribute the template ZIP file on other template sites.",
+      "price": "18.50",
+      "id": 12,
+      "comments": []
+    }
+  ]
+}

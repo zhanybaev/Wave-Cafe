@@ -1,0 +1,28 @@
+@import 'consts';
+
+.add_products_inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .add_inp{
+        background-color: rgba(0,0,0,0.6);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height:300px;
+        padding: 100px;
+        border-radius: 30px;
+        label{
+            color: $white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+        };
+        #add_btn{
+            background-color: $white;
+            border: none;
+            height: 30px;
+            font-weight: bold;
+        }
+    }
+}

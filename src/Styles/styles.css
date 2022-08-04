@@ -1,0 +1,593 @@
+.navigation .menu, .navigation .about_us, .navigation .items, .navigation .contacts {
+  background: white;
+  width: 240px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.loginContainer {
+  margin-top: 40px;
+  padding: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+}
+
+.loginContainer .btnContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loginContainer .btnContainer button {
+  height: 30px;
+  background: white;
+  border: none;
+  font-weight: bold;
+}
+
+.loginContainer label {
+  color: white;
+  font-size: 20px;
+}
+
+.loginContainer p {
+  color: white;
+}
+
+.loginContainer p span {
+  color: #96FEFF;
+}
+
+.navigation .menu, .navigation .about_us, .navigation .items, .navigation .contacts {
+  background: white;
+  width: 240px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.navigation {
+  position: fixed;
+  display: 'flex';
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 500px;
+  height: 400px;
+  color: #099;
+}
+
+.navigation .waveCafe {
+  width: 500px;
+  height: 160px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  font-style: italic;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 35.2px;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.navigation .waveCafe #coffee1 {
+  margin-right: 30px;
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.icon {
+  margin-right: 25px;
+  margin-left: 25px;
+  font-size: 1.5rem;
+}
+
+.waveCafe:hover, .menu:hover, .about_us:hover, .items:hover, .contacts:hover {
+  background-color: #099 !important;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  color: white;
+}
+
+.active div {
+  background-color: #099 !important;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  color: white;
+}
+
+@media all and (max-width: 1300px) {
+  .navigation {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+@media all and (max-width: 580px) {
+  .navigation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto !important;
+    width: 300px !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .waveCafe {
+    width: 70vw !important;
+    font-size: 23px !important;
+    height: 100px !important;
+  }
+  #coffee1 {
+    margin-left: 20px;
+    font-size: 1.3em !important;
+  }
+  .icon {
+    font-size: 1.3rem;
+  }
+  .menu, .about_us, .items, .contacts {
+    margin-top: 20px;
+    height: 80px !important;
+  }
+}
+
+.navigation .menu, .navigation .about_us, .navigation .items, .navigation .contacts {
+  background: white;
+  width: 240px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.list {
+  display: 'flex';
+  -webkit-box-pack: 'space-between';
+      -ms-flex-pack: 'space-between';
+          justify-content: 'space-between';
+  width: 660px;
+  margin-left: 50%;
+}
+
+.list .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.list .product .coffee_image {
+  width: 160px;
+  height: 160px;
+}
+
+.list .product .productInfo {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 465px;
+  height: auto;
+}
+
+.list .product .productInfo .name_price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 7px 25px 0 25px;
+}
+
+.list .product .productInfo .name_price h3 {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.list .product .productInfo .name_price p {
+  color: #96FEFF;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.list .product .productInfo #description {
+  margin-left: 25px;
+  margin-top: auto;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.list .product .productInfo #description .btn {
+  border: #96FEFF 0.3px;
+  border-radius: 5px;
+  background: #96FEFF;
+  color: black;
+  margin-left: 5px;
+  width: 50px;
+  height: 20px;
+  font-size: 15px;
+  font-family: Tahoma;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#add_link {
+  margin-top: 40px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+}
+
+#add_beverage {
+  background: #96FEFF;
+  width: 200px;
+  height: 80px;
+  border: none;
+  border-radius: 0.75rem;
+  color: black;
+  font-family: Tahoma;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#add_icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+#search_inp {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 30px;
+  border-radius: 0.35rem;
+  border: none;
+  color: white;
+  margin-right: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#search_inp::-webkit-input-placeholder {
+  color: white;
+  text-align: center;
+}
+
+#search_inp:-ms-input-placeholder {
+  color: white;
+  text-align: center;
+}
+
+#search_inp::-ms-input-placeholder {
+  color: white;
+  text-align: center;
+}
+
+#search_inp::placeholder {
+  color: white;
+  text-align: center;
+}
+
+#search_btn {
+  background-color: #96FEFF;
+  height: 30px;
+  border-radius: 0.35rem;
+  border: none;
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media all and (max-width: 1300px) {
+  .list {
+    margin-left: 0 !important;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .list {
+    width: 100%;
+  }
+  .product {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .product .productInfo {
+    width: 60% !important;
+    height: auto !important;
+  }
+  .product .productInfo .name_price {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .product .productInfo .name_price h3 {
+    font-size: 17px !important;
+  }
+  .product .productInfo .name_price p {
+    font-size: 17px !important;
+  }
+  .product .productInfo #description {
+    font-size: 15px !important;
+    margin: auto 20px !important;
+  }
+}
+
+.navigation .menu, .navigation .about_us, .navigation .items, .navigation .contacts {
+  background: white;
+  width: 240px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.detail {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: white;
+}
+
+.detail img {
+  width: 30%;
+}
+
+.detail h2 {
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.detail p {
+  padding-bottom: 40px;
+  font-size: 25px;
+}
+
+.detail h3 {
+  color: #96FEFF;
+  font-size: 1.7rem;
+}
+
+@media all and (max-width: 600px) {
+  h2 {
+    font-size: 25px !important;
+  }
+  p {
+    font-size: 20px !important;
+  }
+  h3 {
+    font-size: 1.4rem !important;
+  }
+}
+
+.navigation .menu, .navigation .about_us, .navigation .items, .navigation .contacts {
+  background: white;
+  width: 240px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.editInputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.editInputs .inputs {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 300px;
+  padding: 100px;
+  border-radius: 30px;
+}
+
+.editInputs .inputs label {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.editInputs .inputs #saveEdited {
+  background-color: white;
+  border: none;
+  height: 30px;
+  font-weight: bold;
+}
+
+.navigation .menu, .navigation .about_us, .navigation .items, .navigation .contacts {
+  background: white;
+  width: 240px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+@media all and (max-width: 1300px) {
+  .hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.navigation .menu, .navigation .about_us, .navigation .items, .navigation .contacts {
+  background: white;
+  width: 240px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.add_products_inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.add_products_inputs .add_inp {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 300px;
+  padding: 100px;
+  border-radius: 30px;
+}
+
+.add_products_inputs .add_inp label {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.add_products_inputs .add_inp #add_btn {
+  background-color: white;
+  border: none;
+  height: 30px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=styles.css.map */

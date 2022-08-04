@@ -1,0 +1,143 @@
+@import 'consts';
+
+.list{
+    display:'flex';
+    justify-content:'space-between'; 
+    width: 660px;
+    margin-left: 50%;
+    .product{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        .coffee_image{
+            width:160px; 
+            height:160px
+        }
+        .productInfo{
+            background:rgba(0,0,0,0.6); 
+            color:$white;
+            width: 465px;
+            height: auto;
+            .name_price{
+                display: flex;
+                justify-content: space-between;
+                margin: 7px 25px 0 25px;
+                h3{
+                    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+                    font-size: 21px;
+                    font-weight: 700;
+                }
+                p{
+                    color:$aqua;
+                    font-size: 21px;
+                    font-weight: 700;
+                }
+            };
+            #description{
+                margin-left: 25px;
+                margin-top: auto;
+                font-family: "Open Sans", Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                line-height: 1.8;
+                .btn{
+                    border: $aqua 0.3px;
+                    border-radius: 5px;
+                    background: $aqua;
+                    color: black;
+                    margin-left: 5px;
+                    width: 50px;
+                    height: 20px;
+                    font-size: 15px;
+                    font-family: Tahoma;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+#add_link{
+    margin-top: 40px;
+    align-self: center;
+    text-align: center;
+}
+
+#add_beverage{
+    background: $aqua;
+    width: 200px;
+    height: 80px;
+    border: none;
+    border-radius: 0.75rem;
+    color: black;
+    font-family: Tahoma;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+#add_icon{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#search_inp{
+    background-color: rgba(0,0,0,0.6);
+    height: 30px;
+    border-radius: 0.35rem;
+    border: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#search_inp::placeholder{
+    color: white;
+    text-align: center;
+}
+
+#search_btn{
+    background-color: $aqua;
+    height: 30px;
+    border-radius: 0.35rem;
+    border: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+@media all and (max-width: 1300px){
+    .list{
+        margin-left: 0 !important;
+    }
+}
+
+@media all and (max-width: 700px){
+    .list{
+        width: 100%
+    }
+    .product{
+        flex-direction: column;
+        width: 100%;
+        .productInfo{
+            width: 60% !important;
+            height: auto !important;
+            .name_price{
+                flex-direction: column;
+                h3{
+                    font-size: 17px !important;
+                };
+                p{
+                    font-size: 17px !important;
+                }
+            }
+            #description{
+                font-size: 15px !important;
+                margin: auto 20px !important
+            }
+        };
+
+    }
+    
+}

@@ -1,0 +1,81 @@
+@import 'consts';
+
+.navigation{
+    position: fixed;
+    display:'flex';
+    justify-content: space-between;
+    width: 500px;
+    height: 400px;
+    color: $green;
+    .waveCafe{
+        width: 500px;
+        height: 160px;
+        background: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        font-style: italic;
+        font-family: "Open Sans", Arial, Helvetica, sans-serif;
+        font-size: 35.2px;
+        transition: 0.8s;
+        #coffee1{
+            margin-right: 30px;
+            font-weight: 900;
+            font-size: 2em;
+        };
+    };
+    .menu, .about_us, .items, .contacts{  
+        @extend %nav_block
+    };
+}
+.icon{
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 1.5rem;
+}
+
+.waveCafe:hover, .menu:hover, .about_us:hover, .items:hover, .contacts:hover{
+    background-color: $green !important;
+    transition: 0.8s;
+    color: $white    
+}
+
+.active div{
+    background-color: $green !important;
+    transition: 0.8s;
+    color: $white    
+}
+
+
+@media all and (max-width: 1300px){
+    .navigation{
+        position: sticky;
+    }
+}
+
+@media all and (max-width: 580px){
+    .navigation{
+        flex-direction: column;
+        height: auto !important;
+        width: 300px !important;
+        align-items: center;
+    }
+    .waveCafe {
+        width: 70vw !important;
+        font-size: 23px !important;
+        height: 100px !important;
+    };
+    #coffee1{
+        margin-left: 20px;
+        font-size: 1.3em !important;
+    };
+    .icon{
+        font-size: 1.3rem;
+    };
+
+    .menu, .about_us, .items, .contacts{  
+        margin-top: 20px;
+        height: 80px !important
+    };
+}
