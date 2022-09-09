@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import fire from '../../fire';
 import Login from './Login';
-import Hero from './Hero';
+import Hero from '../Home/Home';
 
 const Authorization = () => {
     const [user, setUser]=useState('');
@@ -37,6 +37,9 @@ const Authorization = () => {
                     case "auth/wrong-password":
                         setPasswordError(err.message);
                         break;
+                    default:
+                        setEmailError(err.message)
+                        setPasswordError(err.message)
                 }
             })
     };
@@ -55,6 +58,9 @@ const Authorization = () => {
                     case "auth/weak-password":
                         setPasswordError(err.message);
                         break;
+                    default:
+                        setEmailError(err.message)
+                        setPasswordError(err.message)
                 }
             })
     }
@@ -80,22 +86,18 @@ const Authorization = () => {
 
     return (
         <div>
-            {user ? (
-                <Hero handleLogout={handleLogout} />
-            ):(
-                <Login 
-                email={email}
-                setEmail={setEmail}
-                password={password}
-                setPassword={setPassword}
-                handleLogin={handleLogin}
-                handleSignup={handleSignup}
-                hasAccount={hasAccount}
-                setHasAccount={setHasAccount}
-                emailError={emailError}
-                passwordError={passwordError} 
-            />
-            )}
+            <Login 
+            email={email}
+            setEmail={setEmail}
+            password={password}
+            setPassword={setPassword}
+            handleLogin={handleLogin}
+            handleSignup={handleSignup}
+            hasAccount={hasAccount}
+            setHasAccount={setHasAccount}
+            emailError={emailError}
+            passwordError={passwordError} 
+        />
         </div>
     );
 };

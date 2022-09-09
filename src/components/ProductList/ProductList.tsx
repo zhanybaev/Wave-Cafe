@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router';
 import { Link } from 'react-router-dom';
 import { MdAddBusiness } from 'react-icons/md';
-import { FcSearch } from 'react-icons/fc';
+// import { FcSearch } from 'react-icons/fc';
 import { useTypedSelector } from '../../hooks/useTypedSelector';
 import { getProducts } from '../../store/action-creator/Coffee';
 import '../../Styles/styles.css'
@@ -53,7 +53,7 @@ const ProductList = () => {
     return (
         <div className="list" >
             <input id="search_inp" type="text" placeholder="Search..." value={searchVal} onChange={handleValue}/>
-            <button id="search_btn" onClick={()=>dispatch(getProducts(history))}><FcSearch id="search_icon"/> Search</button>
+            {/* <button id="search_btn" onClick={()=>dispatch(getProducts(history))}><FcSearch id="search_icon"/> Search</button> */}
             {coffees.map(item=>
                 <div key={item.id} className="product">
                     <Link to={`/detail/${item.id}`} style={{textDecoration:'none'}}>

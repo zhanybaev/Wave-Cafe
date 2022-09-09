@@ -1,4 +1,4 @@
-.navigation .menu, .navigation .about_us, .navigation .items, .navigation .contacts {
+.menu, .about_us, .items, .contacts {
   background: white;
   width: 240px;
   height: 100px;
@@ -11,6 +11,7 @@
   font-size: 1.2rem;
   -webkit-transition: 0.8s;
   transition: 0.8s;
+  color: #099;
 }
 
 .login {
@@ -72,7 +73,7 @@
   color: #96FEFF;
 }
 
-.navigation .menu, .navigation .about_us, .navigation .items, .navigation .contacts {
+.menu, .about_us, .items, .contacts {
   background: white;
   width: 240px;
   height: 100px;
@@ -85,6 +86,7 @@
   font-size: 1.2rem;
   -webkit-transition: 0.8s;
   transition: 0.8s;
+  color: #099;
 }
 
 .navigation {
@@ -96,9 +98,10 @@
   width: 500px;
   height: 400px;
   color: #099;
+  margin-left: 30px;
 }
 
-.navigation .waveCafe {
+.waveCafe {
   width: 500px;
   height: 160px;
   background: white;
@@ -119,7 +122,7 @@
   transition: 0.8s;
 }
 
-.navigation .waveCafe #coffee1 {
+.waveCafe #coffee1 {
   margin-right: 30px;
   font-weight: 900;
   font-size: 2em;
@@ -135,14 +138,14 @@
   background-color: #099 !important;
   -webkit-transition: 0.8s;
   transition: 0.8s;
-  color: white;
+  color: white !important;
 }
 
 .active div {
   background-color: #099 !important;
   -webkit-transition: 0.8s;
   transition: 0.8s;
-  color: white;
+  color: white !important;
 }
 
 @media all and (max-width: 1300px) {
@@ -182,7 +185,7 @@
   }
 }
 
-.navigation .menu, .navigation .about_us, .navigation .items, .navigation .contacts {
+.menu, .about_us, .items, .contacts {
   background: white;
   width: 240px;
   height: 100px;
@@ -195,6 +198,7 @@
   font-size: 1.2rem;
   -webkit-transition: 0.8s;
   transition: 0.8s;
+  color: #099;
 }
 
 .list {
@@ -303,13 +307,15 @@
 
 #search_inp {
   background-color: rgba(0, 0, 0, 0.6);
-  height: 30px;
+  height: 35px;
+  width: 100%;
   border-radius: 0.35rem;
-  border: none;
+  border: 2px solid transparent;
   color: white;
-  margin-right: 20px;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 600;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 
 #search_inp::-webkit-input-placeholder {
@@ -330,6 +336,13 @@
 #search_inp::placeholder {
   color: white;
   text-align: center;
+}
+
+#search_inp:focus {
+  outline: none;
+  border-color: #96FEFF;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 
 #search_btn {
@@ -381,7 +394,7 @@
   }
 }
 
-.navigation .menu, .navigation .about_us, .navigation .items, .navigation .contacts {
+.menu, .about_us, .items, .contacts {
   background: white;
   width: 240px;
   height: 100px;
@@ -394,6 +407,7 @@
   font-size: 1.2rem;
   -webkit-transition: 0.8s;
   transition: 0.8s;
+  color: #099;
 }
 
 .detail {
@@ -433,7 +447,7 @@
   }
 }
 
-.navigation .menu, .navigation .about_us, .navigation .items, .navigation .contacts {
+.menu, .about_us, .items, .contacts {
   background: white;
   width: 240px;
   height: 100px;
@@ -446,6 +460,7 @@
   font-size: 1.2rem;
   -webkit-transition: 0.8s;
   transition: 0.8s;
+  color: #099;
 }
 
 .editInputs {
@@ -493,7 +508,7 @@
   font-weight: bold;
 }
 
-.navigation .menu, .navigation .about_us, .navigation .items, .navigation .contacts {
+.menu, .about_us, .items, .contacts {
   background: white;
   width: 240px;
   height: 100px;
@@ -506,6 +521,7 @@
   font-size: 1.2rem;
   -webkit-transition: 0.8s;
   transition: 0.8s;
+  color: #099;
 }
 
 .hero {
@@ -531,7 +547,7 @@
   }
 }
 
-.navigation .menu, .navigation .about_us, .navigation .items, .navigation .contacts {
+.menu, .about_us, .items, .contacts {
   background: white;
   width: 240px;
   height: 100px;
@@ -544,6 +560,7 @@
   font-size: 1.2rem;
   -webkit-transition: 0.8s;
   transition: 0.8s;
+  color: #099;
 }
 
 .add_products_inputs {
@@ -589,5 +606,10 @@
   border: none;
   height: 30px;
   font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -83,18 +83,25 @@
 
 #search_inp{
     background-color: rgba(0,0,0,0.6);
-    height: 30px;
+    height: 35px;
+    width: 100%;
     border-radius: 0.35rem;
-    border: none;
+    border: 2px solid transparent;
     color: white;
-    margin-right: 20px;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 600;
+    transition: 0.7s;
 }
 
 #search_inp::placeholder{
     color: white;
     text-align: center;
+}
+
+#search_inp:focus{
+    outline: none;
+    border-color: $aqua;
+    transition: 0.7s;
 }
 
 #search_btn{

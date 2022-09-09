@@ -7,28 +7,29 @@
     width: 500px;
     height: 400px;
     color: $green;
-    .waveCafe{
-        width: 500px;
-        height: 160px;
-        background: $white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: 700;
-        font-style: italic;
-        font-family: "Open Sans", Arial, Helvetica, sans-serif;
-        font-size: 35.2px;
-        transition: 0.8s;
-        #coffee1{
-            margin-right: 30px;
-            font-weight: 900;
-            font-size: 2em;
-        };
-    };
-    .menu, .about_us, .items, .contacts{  
-        @extend %nav_block
-    };
+    margin-left: 30px;
 }
+.menu, .about_us, .items, .contacts{  
+    @extend %nav_block
+};
+.waveCafe{
+    width: 500px;
+    height: 160px;
+    background: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 35.2px;
+    transition: 0.8s;
+    #coffee1{
+        margin-right: 30px;
+        font-weight: 900;
+        font-size: 2em;
+    };
+};
 .icon{
     margin-right: 25px;
     margin-left: 25px;
@@ -38,13 +39,13 @@
 .waveCafe:hover, .menu:hover, .about_us:hover, .items:hover, .contacts:hover{
     background-color: $green !important;
     transition: 0.8s;
-    color: $white    
+    color: $white !important;    
 }
 
 .active div{
     background-color: $green !important;
     transition: 0.8s;
-    color: $white    
+    color: $white !important;
 }
 
 
