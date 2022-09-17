@@ -23,6 +23,8 @@
           justify-content: center;
 }
 
+
+
 .loginContainer {
   margin-top: 40px;
   padding: 60px;
@@ -141,7 +143,7 @@
   color: white !important;
 }
 
-.active div {
+.activePage div {
   background-color: #099 !important;
   -webkit-transition: 0.8s;
   transition: 0.8s;
